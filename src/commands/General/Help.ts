@@ -44,7 +44,7 @@ export default class Command extends BaseCommand {
 
     const chitoge =
 
-      "https://telegra.ph/file/67c5c71f7c1c6cfa6a8c3.mp4";
+      "https://telegra.ph/file/505ac6bfdea8113cb2b40.mp4";
 
     if (!parsedArgs.joined) {
 
@@ -86,11 +86,11 @@ export default class Command extends BaseCommand {
 
       }
 
-      let text = `👋🏻 (💚ω💚) Konichiwa! *@${
+      let text = `👋🏻 (💚ω💚) Hello Darling! *@${
 
         user.split("@")[0]
 
-      }*, I'm  𝕫𝕖𝕥𝕠  𝕥𝕨𝕠 𝔹𝕠𝕥𝕥𝕠.\n\nMy prefix is - "${
+      }*, *Iam Shikamori Bot*.\n\nMy prefix is - "${
 
         this.client.config.prefix
 
@@ -100,11 +100,11 @@ export default class Command extends BaseCommand {
 
       for (const key of keys)
 
-        text += `*━━━❰🧧 ${this.client.util.capitalize(
+        text += `*━━━❰💖👸 ${this.client.util.capitalize(
 
           key
 
-        )} 🧧❱━━━*\n\`\`\`${categories[key]
+        )} 👸💖❱━━━*\n\`\`\`${categories[key]
 
           .map((command) => command.config?.command)
 
