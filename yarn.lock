@@ -6445,6 +6445,31 @@ ws@^8.0.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.3.0.tgz#7185e252c8973a60d57170175ff55fdbd116070d"
   integrity sha512-Gs5EZtpqZzLvmIM59w4igITU57lrtYVFneaa434VROv4thzJyV6UjIL3D42lslWlI+D4KzLYnxSwtfuiO79sNw==
+w5-textmaker@^1.0.2:
+
+  version "1.0.2"
+
+  resolved "https://registry.npmjs.org/w5-textmaker/-/w5-textmaker-1.0.2.tgz"
+
+  dependencies:
+
+    axios "^0.21.1"
+
+    cheerio "^1.0.0-rc.5"
+
+    cookie "^0.4.1"
+
+    form-data "^4.0.0"
+
+    instatouch "^2.3.3"
+
+    moment-timezone "^0.5.33"
+
+    node-fetch "^2.6.1"
+    
+    paste.gg "^1.0.3"
+
+
 
 xdg-basedir@^5.0.1:
   version "5.1.0"
