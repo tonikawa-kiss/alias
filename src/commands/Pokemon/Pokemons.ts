@@ -52,7 +52,7 @@ export default class Command extends BaseCommand {
     }
     const buttonMessage: any = {
       contentText: `${text}`,
-      footerText: "🚀LEVI-BOT🚀",
+      footerText: "💝Asuna-BOT 💝",
       buttons: buttons,
       headerType: 1,
     };
